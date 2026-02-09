@@ -1,15 +1,21 @@
 {
   "name": "vp0",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "VP0 - React Native Component Marketplace CLI",
   "main": "dist/index.js",
   "bin": {
     "vp0": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc && sed -i '1i\\#!/usr/bin/env node' dist/index.js",    "dev": "tsx src/index.ts"
+    "build": "tsc && sed -i '1i\\#!/usr/bin/env node' dist/index.js",
+    "dev": "tsx src/index.ts"
   },
-  "keywords": ["react-native", "components", "cli", "marketplace"],
+  "keywords": [
+    "react-native",
+    "components",
+    "cli",
+    "marketplace"
+  ],
   "author": "Agshin Mustafazade",
   "license": "MIT",
   "dependencies": {
